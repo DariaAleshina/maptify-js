@@ -4,6 +4,8 @@
 
 Maptify is a JavaScript-based web application that helps users track their running and cycling workouts on an interactive map. Users can log their activities with details like distance, duration, pace (for running), and speed/elevation gain (for cycling). The app uses the browser's geolocation API and stores data in local storage for persistence.
 
+![Main Screen](maptify-screenshot.png)
+
 ## Features
 
 - 📍 Track workouts based on geolocation.
@@ -52,10 +54,6 @@ Calculates speed (km/h) using \_calcSpeed().
 Handles map rendering, event listeners, workout creation, and local storage.
 Uses the **Geolocation API** to fetch the user's position.
 Stores workouts in an array and persists them using localStorage.
-
-## Screenshots
-
-![Main Screen](maptify-screenshot.png)
 
 ## Future Improvements
 

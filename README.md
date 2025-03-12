@@ -28,15 +28,30 @@ Maptify is a JavaScript-based web application that helps users track their runni
 4. **Submit the form**: The workout appears on the list and map.
 5. **View saved workouts**: Stored in local storage for persistence.
 
-## Project Structure
+## Object-Oriented Programming Approach
 
-```
-maptify/
-├── index.html
-├── style.css
-├── script.js
-├── assets/
-```
+The app is built using JavaScript classes to structure workout data efficiently:
+
+### Workout Base Class
+
+Stores ID, date, coordinates, distance, and duration.
+Implements a \_setDescription() method to generate a readable workout description.
+
+### Running Class (Extends Workout)
+
+Adds a cadence property.
+Calculates pace (min/km) using \_calcPace().
+
+### Cycling Class (Extends Workout)
+
+Adds an elevationGain property.
+Calculates speed (km/h) using \_calcSpeed().
+
+### App Class
+
+Handles map rendering, event listeners, workout creation, and local storage.
+Uses the **Geolocation API** to fetch the user's position.
+Stores workouts in an array and persists them using localStorage.
 
 ## Screenshots
 

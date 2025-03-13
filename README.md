@@ -8,6 +8,8 @@ Maptify is a JavaScript-based web application that helps users track their runni
 
 [VISIT WEBPAGE](https://maptify-daria-aleshina.netlify.app/)
 
+⚠️ Mobile Responsiveness: This project is best viewed on desktop. Mobile support is in progress!
+
 ![Main Screen](maptify-screenshot.png)
 
 ## Features
